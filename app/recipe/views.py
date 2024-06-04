@@ -12,7 +12,7 @@ from core.models import (
     Recipe,
     Tag
 )
-from recipe import serializers  # pylint: disable=unused-import
+from recipe import serializers
 
 
 class RecipeViewSet(viewsets.ModelViewSet):
